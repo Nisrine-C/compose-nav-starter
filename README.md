@@ -2,7 +2,6 @@
 
 A simple Android app demonstrating best practices for navigation using Jetpack Compose. 
 
----
 
 ## Features
 
@@ -11,8 +10,6 @@ A simple Android app demonstrating best practices for navigation using Jetpack C
 - **Multi-Screen Setup:** Easily switch between multiple screens with arguments
 - **Project Structure:** Well-organized Kotlin packages for screens, navigation, and UI logic
 - **Starter Reference:** Suitable for learning or bootstrapping Compose navigation
-
----
 
 ## Project Structure
 
@@ -31,8 +28,6 @@ app/
                         └── ui/              # UI components, themes, etc
 ```
 
----
-
 ## Getting Started
 
 1. **Clone the repository:**
@@ -43,8 +38,6 @@ app/
 3. **Build & Run:**  
    The app will launch on an emulator or device.
 
----
-
 ## Example: Navigation with Arguments
 
 ```kotlin
@@ -53,23 +46,11 @@ navController.navigate("profile/{$userId}")
 
 - See `navigation` folder for route and argument passing.
 
----
-
 ## Requirements
 
 - Android Studio (Arctic Fox or newer)
 - Kotlin 1.5+
 - Jetpack Compose 1.0+
-
----
-
-## License
-
-MIT (or your chosen license).
-
----
-
-## Acknowledgments
 
 - [Jetpack Compose Navigation documentation](https://developer.android.com/jetpack/compose/navigation)
 - [Android Developers Samples](https://github.com/android/compose-samples)
